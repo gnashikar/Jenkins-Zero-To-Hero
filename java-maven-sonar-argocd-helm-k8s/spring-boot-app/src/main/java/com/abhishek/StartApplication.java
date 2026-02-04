@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class StartApplication {
 
+    private string var1, var2, var3, var4, var5, var6, var7, var8, var9, var10;
+    
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "I have successfuly built a sprint boot application using Maven");
