@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class StartApplication {
 
-    private String field1, field2, field3, field4, field5, field6, field7, field8, field9, field10;
+    private String field1, field2, field3, field4, field5, field6, field7, field8, field9, field10, field11, field12;
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "I have successfuly built a sprint boot application using Maven");
